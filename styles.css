@@ -1,0 +1,101 @@
+
+body{
+  font-family: Arial,sans-serif;
+  text-align: center;
+
+}
+
+/* nav */
+.nav{
+  display:inline-flex;
+  background-size: cover;
+}
+.logo{
+  height:80px;
+  width:120px;
+  display:inline-flex;
+}
+.navmenu{
+  display:flex;
+}
+
+li{
+  margin:30px;
+  list-style: none;
+}
+
+.hero{
+  width:auto;
+}
+
+/* sections */
+h3{
+  font-size: 0.8rem;
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.flex-intro{
+  padding-left: 240px;
+  padding-right: 240px;
+  display:flex;
+  text-align: left;
+}
+.p-intro{
+  line-height: 2rem;
+}
+.grid-1{
+  padding-left: 240px;
+  padding-right: 240px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Categories{
+  text-align: center;
+  /* padding-left: 10%; */
+}
+.flex-icons{
+  wrap:60px;
+  padding:5px;
+}
+
+.grid-2{
+padding-left: 240px;
+padding-right: 240px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.wrap{
+  flex:200px;
+}
+
+.grid-3{
+  padding-left: 240px;
+  padding-right: 240px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flex-news{
+  flex:280px;
+}
+
+/* foot-menu */
+.foot-menu{
+  background-color: #333333;
+  margin-top: 40px;
+  padding-top:50px;
+  color: white;
+}
+footer{
+  background-color: #111111;
+  color:white;
+  padding:20px;
+}
+.flex-footer{
+  flex:200px;
+  text-align: left;
+}
